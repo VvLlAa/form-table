@@ -30,7 +30,7 @@ const handleInput = (event) => {
         @input="handleInput"
         :placeholder="props.placeholder"
     >
-    <p v-if="props.error" class="error">Пожалуйсто заполните поле</p>
+    <p v-if="props.error" class="error">Пожалуйста, заполните поле</p>
   </div>
 </template>
 
